@@ -1,8 +1,8 @@
 ---
-name: John Doe
-image: images/photo.jpg
+name: Zi Li
+image: images/lIzi.jpg
 role: phd
-group: alum
+group: 
 links:
   github: john-doe
 ---
