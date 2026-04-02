@@ -24,8 +24,9 @@ Text
 {%
   include button.html
   type="address"
+  description = "Address: The University of Hong Kong, Pokfulam, Hong Kong"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://maps.app.goo.gl/nnCx2daMn2eTN9Pi9"
 %}
 
 {% comment %}
