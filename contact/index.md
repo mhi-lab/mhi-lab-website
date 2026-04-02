@@ -24,10 +24,23 @@ Text
 {%
   include button.html
   type="address"
-  description = "Address: The University of Hong Kong, Pokfulam, Hong Kong"
   tooltip="Our location on Google Maps for easy navigation"
   link="https://maps.app.goo.gl/nnCx2daMn2eTN9Pi9"
 %}
+
+<div style="margin-top: 40px; margin-bottom: 40px; width: 100%;">
+  <iframe 
+    src="https://maps.google.com/maps?q=The+University+of+Hong+Kong,+Pokfulam,+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+    width="100%" 
+    height="450" 
+    style="border: 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+{% include section.html %}
 
 {% comment %}
 {% include section.html %}
