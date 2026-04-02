@@ -1,10 +1,10 @@
 ---
 name: Zi Li
 image: images/lIzi.jpg
-role: phd
+role: Ph.D. (2025-)
+affiliation: B.E. DLUT - M.E. DLUT
 group: 
 links:
-  github: john-doe
+  home-page: https://alison-brie.github.io
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
