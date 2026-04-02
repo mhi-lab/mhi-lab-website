@@ -17,7 +17,9 @@ on:
 permissions:
   contents: write
   pull-requests: write
-
+  pages: write
+  id-token: write
+  
 env:
   FORCE_COLOR: true
   GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
