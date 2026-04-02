@@ -11,12 +11,5 @@ text..
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="name == 'Cheng Chen'" %}
-{% include list.html data="members" component="portrait" filter="name == 'Cheng Chen'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-text..
-
-{% include section.html %}
-
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
