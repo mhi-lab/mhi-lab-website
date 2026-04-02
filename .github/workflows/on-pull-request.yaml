@@ -12,7 +12,9 @@ on:
 permissions:
   contents: write
   pull-requests: write
-
+  pages: write
+  id-token: write
+  
 jobs:
   update-citations:
     uses: ./.github/workflows/update-citations.yaml
