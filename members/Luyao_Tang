@@ -568,15 +568,6 @@
     
       
         <a
-          href="/mhi-lab-website/award/"
-          data-tooltip="Praise and laurels"
-        >
-          Awards
-        </a>
-      
-    
-      
-        <a
           href="/mhi-lab-website/research/"
           data-tooltip="Published works"
         >
@@ -608,6 +599,15 @@
           data-tooltip="Email, address, and location"
         >
           Contact
+        </a>
+      
+    
+      
+        <a
+          href="/mhi-lab-website/award/"
+          data-tooltip="Praise and laurels"
+        >
+          Awards
         </a>
       
     
