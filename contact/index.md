@@ -30,7 +30,7 @@ Text
 
 <div style="margin-top: 40px; margin-bottom: 40px; width: 100%;">
   <iframe 
-    src="https://maps.google.com/maps?q=The+University+of+Hong+Kong,+Pokfulam,+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed?hl=en" 
+    src="https://maps.google.com/maps?q=The+University+of+Hong+Kong,+Pokfulam,+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed" 
     width="100%" 
     height="450" 
     style="border: 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" 
