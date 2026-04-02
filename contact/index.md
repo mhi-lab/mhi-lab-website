@@ -25,12 +25,12 @@ Text
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://maps.app.goo.gl/nnCx2daMn2eTN9Pi9"
+  link="https://maps.app.goo.gl/jjB8hG69p2PYC5Vc8"
 %}
 
 <div style="margin-top: 40px; margin-bottom: 40px; width: 100%;">
   <iframe 
-    src="https://maps.google.com/maps?q=The+University+of+Hong+Kong,+Pokfulam,+Hong+Kong&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.865240218691!2d114.13398717605006!3d22.283094043517412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff8427b43597%3A0x2c48f5d3cd6fc8d8!2sThe%20University%20of%20Hong%20Kong%20(HKU)!5e0!3m2!1sen!2stw!4v1775156541153!5m2!1sen!2stw" 
     width="100%" 
     height="450" 
     style="border: 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" 
