@@ -5,6 +5,6 @@
 
   # mhi-lab's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[mhi-lab.github.io/mhi-lab-website](https://mhi-lab.github.io/mhi-lab-website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
