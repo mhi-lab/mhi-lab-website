@@ -2,7 +2,7 @@
 title: Awards
 description: Our lab has received international praise for our contributions to science.
 nav:
-  order: 1
+  order: 6
   tooltip: Praise and laurels
 header: images/header-for-this-page.jpg
 footer: images/footer-for-this-page.jpg
