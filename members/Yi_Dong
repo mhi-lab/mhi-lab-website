@@ -577,15 +577,6 @@
     
       
         <a
-          href="/mhi-lab-website/projects/"
-          data-tooltip="Software, datasets, and more"
-        >
-          Projects
-        </a>
-      
-    
-      
-        <a
           href="/mhi-lab-website/team/"
           data-tooltip="About our team"
         >
