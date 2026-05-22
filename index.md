@@ -1,9 +1,9 @@
 ---
 ---
 
-# mhi-lab's Website
+# Welcome to the Multimodal Health Intelligence (MHl) Lab!
 
-An engaging 1-3 sentence description of your lab.
+Our group is dedicated to the interdisciplinary field of artificial intelligence and healthcare, focusing on integrating multimodal and heterogeneous medical data for precision and personalized disease diagnosis, prognosis, and treatment decision-making. Our research focus includes: 1) medical VLMs/MLLMs; 2) biomedical data generation and medical world models; 3) agentic AI systems for intelligent healthcare; 4) time-series data analysis.
 
 {% include section.html %}
 
