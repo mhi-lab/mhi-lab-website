@@ -527,15 +527,17 @@
 
 <h2 id="selected-papers">Selected Papers</h2>
 
-<div class="paper-carousel">
+<div class="pub-carousel">
 
-  <button class="paper-carousel-btn prev" onclick="changePaper(-1)">❮</button>
+  <button class="pub-arrow pub-prev" type="button" onclick="changePub(-1)">
+    ❮
+  </button>
 
-  <div class="paper-carousel-track">
+  <div class="pub-slides">
 
-    <div class="paper-card active">
+    <div class="pub-slide is-active">
       <img src="/mhi-lab-website/images/photo.jpg" alt="Paper image">
-      <div class="paper-card-content">
+      <div class="pub-content">
         <h3>Paper Title 1</h3>
         <p>
           This is the abstract of the first selected paper. Replace this text with the real abstract.
@@ -543,9 +545,9 @@
       </div>
     </div>
 
-    <div class="paper-card">
+    <div class="pub-slide">
       <img src="/mhi-lab-website/images/photo.jpg" alt="Paper image">
-      <div class="paper-card-content">
+      <div class="pub-content">
         <h3>Paper Title 2</h3>
         <p>
           This is the abstract of the second selected paper. Replace this text with the real abstract.
@@ -553,9 +555,9 @@
       </div>
     </div>
 
-    <div class="paper-card">
+    <div class="pub-slide">
       <img src="/mhi-lab-website/images/photo.jpg" alt="Paper image">
-      <div class="paper-card-content">
+      <div class="pub-content">
         <h3>Paper Title 3</h3>
         <p>
           This is the abstract of the third selected paper. Replace this text with the real abstract.
@@ -565,14 +567,16 @@
 
   </div>
 
-  <button class="paper-carousel-btn next" onclick="changePaper(1)">❯</button>
+  <button class="pub-arrow pub-next" type="button" onclick="changePub(1)">
+    ❯
+  </button>
 
 </div>
 
-<div class="paper-carousel-dots">
-  <span class="dot active" onclick="showPaper(0)"></span>
-  <span class="dot" onclick="showPaper(1)"></span>
-  <span class="dot" onclick="showPaper(2)"></span>
+<div class="pub-dots">
+  <button class="pub-dot is-active" type="button" onclick="showPub(0)"></button>
+  <button class="pub-dot" type="button" onclick="showPub(1)"></button>
+  <button class="pub-dot" type="button" onclick="showPub(2)"></button>
 </div>
 
 <div class="button-wrapper">
@@ -585,29 +589,29 @@
   </div>
 
 <script>
-let currentPaper = 0;
+let currentPub = 0;
 
-function showPaper(index) {
-  const cards = document.querySelectorAll(".paper-carousel .paper-card");
-  const dots = document.querySelectorAll(".paper-carousel-dots .dot");
+function showPub(index) {
+  const slides = document.querySelectorAll(".pub-slide");
+  const dots = document.querySelectorAll(".pub-dot");
 
-  if (index >= cards.length) {
-    currentPaper = 0;
-  } else if (index < 0) {
-    currentPaper = cards.length - 1;
+  if (index < 0) {
+    currentPub = slides.length - 1;
+  } else if (index >= slides.length) {
+    currentPub = 0;
   } else {
-    currentPaper = index;
+    currentPub = index;
   }
 
-  cards.forEach(card => card.classList.remove("active"));
-  dots.forEach(dot => dot.classList.remove("active"));
+  slides.forEach(slide => slide.classList.remove("is-active"));
+  dots.forEach(dot => dot.classList.remove("is-active"));
 
-  cards[currentPaper].classList.add("active");
-  dots[currentPaper].classList.add("active");
+  slides[currentPub].classList.add("is-active");
+  dots[currentPub].classList.add("is-active");
 }
 
-function changePaper(step) {
-  showPaper(currentPaper + step);
+function changePub(step) {
+  showPub(currentPub + step);
 }
 </script>
   </section>
