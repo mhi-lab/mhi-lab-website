@@ -146,4 +146,13 @@ header[data-big] .subtitle {
   font-size: var(--large);
 }
 
+header {
+  background: #930f03;
+  box-shadow: none;
+}
+
+header.background::before {
+  display: none;
+}
+
 /*# sourceMappingURL=header.css.map */
