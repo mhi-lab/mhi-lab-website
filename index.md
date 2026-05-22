@@ -7,11 +7,41 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
 
 {% include section.html %}
 
-## Highlights
+## Selected Papers
 
-{% capture text %}
+<div class="paper-slider">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <div class="paper-card">
+    <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+    <div class="paper-card-content">
+      <h3>Paper Title 1</h3>
+      <p>
+        This is the abstract of the first selected paper. Replace this text with the real abstract.
+      </p>
+    </div>
+  </div>
+
+  <div class="paper-card">
+    <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+    <div class="paper-card-content">
+      <h3>Paper Title 2</h3>
+      <p>
+        This is the abstract of the second selected paper. Replace this text with the real abstract.
+      </p>
+    </div>
+  </div>
+
+  <div class="paper-card">
+    <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+    <div class="paper-card-content">
+      <h3>Paper Title 3</h3>
+      <p>
+        This is the abstract of the third selected paper. Replace this text with the real abstract.
+      </p>
+    </div>
+  </div>
+
+</div>
 
 {%
   include button.html
@@ -20,62 +50,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
 %}
