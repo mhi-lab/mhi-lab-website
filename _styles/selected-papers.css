@@ -1,14 +1,16 @@
 .paper-slider {
   display: flex;
+  flex-direction: row;
   gap: 24px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding: 10px 0 30px;
   margin: 20px 0;
+  width: 100%;
 }
 
 .paper-card {
-  flex: 0 0 360px;
+  flex: 0 0 420px;
   scroll-snap-align: start;
   border: 1px solid var(--light-gray);
   border-radius: 12px;
@@ -41,3 +43,5 @@
   line-height: 1.6;
   text-align: left;
 }
+
+/*# sourceMappingURL=selected-papers.css.map */
