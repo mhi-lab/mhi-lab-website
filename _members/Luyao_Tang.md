@@ -5,7 +5,7 @@ role: phd
 description: Ph.D. (2025-)
 affiliation: B.E. XMU - M.E XMU
 group: 
-links:
+link:
   home-page:
 ---
 
