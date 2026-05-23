@@ -5,8 +5,14 @@ nav:
   tooltip: About our team
 ---
 
-## Principal Investigator
+<div class="team-page">
+
+<h2>Principal Investigator</h2>
+
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
-## PhD Students
+<h2>PhD Students</h2>
+
 {% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+
+</div>
