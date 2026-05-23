@@ -6,5 +6,4 @@ description: Ph.D. (2025-)
 affiliation: B.E. Beihang - M.Res. IC
 group: 
 link:
-  home-page:
 ---
