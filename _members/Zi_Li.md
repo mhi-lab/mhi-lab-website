@@ -5,7 +5,7 @@ role: phd
 description: Ph.D. (2025-)
 affiliation: B.E. DLUT - M.E DLUT
 group: 
-links:
+link:
   home-page: https://alison-brie.github.io
 ---
 
