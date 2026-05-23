@@ -21,4 +21,8 @@ footer .icon {
   font-size: var(--xl);
 }
 
+footer.background:before {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=footer.css.map */
