@@ -23,4 +23,6 @@ footer a:hover {
 footer .icon {
   font-size: var(--xl);
 }
-
+footer.background:before {
+  opacity: 1;
+}
