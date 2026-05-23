@@ -19,7 +19,11 @@ permissions:
 jobs:
   build-site:
     runs-on: ubuntu-latest
-
+    
+    environment:
+    name: github-pages
+    url: ${{ steps.deployment.outputs.page_url }}
+  
     steps:
       - name: Debug dump
         if: runner.debug == '1'
