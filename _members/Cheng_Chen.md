@@ -7,6 +7,5 @@ aliases:
   - C. Chen
 links:
   home-page: https://cchen-cc.github.io
-  orcid: 
 ---
 
