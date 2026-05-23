@@ -5,6 +5,6 @@ role: phd
 description: Ph.D. (2025-)
 affiliation: B.S. CUHK
 group: 
-links:
+link:
   home-page:
 ---
