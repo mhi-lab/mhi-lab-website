@@ -2,7 +2,8 @@
 name: Cheng Chen
 image: images/Cheng_Chen.jpg
 role: principal-investigator
-affiliation: The University of Hong Kong
+description: Assistant Professor
+affiliation:
 aliases:
   - C. Chen
 link: https://cchen-cc.github.io
