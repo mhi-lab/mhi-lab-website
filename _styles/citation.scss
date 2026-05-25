@@ -100,4 +100,9 @@ $wrap: 800px;
     width: unset;
     height: $thumb-size;
   }
+  
+  .citation-authors strong {
+  font-weight: 800;
+  color: var(--text);
+}
 }
