@@ -1,4 +1,8 @@
 ---
+title: Home
+nav:
+  order: 1
+  tooltip: Home
 ---
 
 # Welcome to the Multimodal Health Intelligence (MHl) Lab!
