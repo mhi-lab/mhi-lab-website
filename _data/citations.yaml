@@ -21,3 +21,249 @@
   date: "2020-07-01"
   link: https://ieeexplore.ieee.org/abstract/document/8988158
   image: images/publications/unsupervised-bidirectional-cross-modality-adaptation.png
+
+- title: "Synergistic Image and Feature Adaptation: Towards Cross-Modality Domain Adaptation for Medical Image Segmentation"
+  authors:
+    - <strong>Cheng Chen</strong>
+    - Qi Dou
+    - Hao Chen
+    - Jing Qin
+    - Pheng-Ann Heng
+  publisher: "AAAI"
+  date: "2019-07-17"
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/3874
+  image: images/publications/synergistic-image-and-feature-adaptation.png
+
+- title: "SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment"
+  authors:
+    - Weiren Zhao
+    - Yi Dong
+    - <strong>Cheng Chen</strong>
+  publisher: "ICML"
+  date: "2026-05-09"
+  link: https://arxiv.org/abs/2605.08724
+  image: images/publications/synermedgen.png
+
+- title: "Beyond Adapter Retrieval: Latent Geometry-Preserving Composition via Sparse Task Projection"
+  authors:
+    - Pengfei Jin
+    - Peng Shu
+    - Sifan Song
+    - Sekeun Kim
+    - Qing Xiao
+    - <strong>Cheng Chen</strong>
+    - Tianming Liu
+    - Xiang Li
+    - Quanzheng Li
+  publisher: "AAAI"
+  date: "2026-03-14"
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/39400
+  image: images/publications/beyond-adapter-retrieval.png
+
+- title: "Tackling Dual-stage Missing Modalities in Brain Tumor Segmentation via Robust Modality Reconstruction and Prompt-guided Modality Adaptation"
+  authors:
+    - Yunpeng Zhao
+    - <strong>Cheng Chen</strong>
+    - Qing You Pang
+    - Yibing Fu
+    - Quanzheng Li
+    - Carol Tang
+    - Beng Ti Ang
+    - Yueming Jin
+  publisher: "AAAI"
+  date: "2026-03-14"
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/38334
+  image: images/publications/dual-stage-missing-modalities-brain-tumor-segmentation.png
+
+- title: "Unleashing the Power of Image-Tabular Self-Supervised Learning via Breaking Cross-Tabular Barriers"
+  authors:
+    - Yibing Fu
+    - Yunpeng Zhao
+    - Zhitao Zeng
+    - <strong>Cheng Chen</strong>
+    - Yueming Jin
+  publisher: "AAAI"
+  date: "2026-03-14"
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/37408
+  image: images/publications/image-tabular-self-supervised-learning.png
+
+- title: "SAM-Driven Cross Prompting with Adaptive Sampling Consistency for Semi-supervised Medical Image Segmentation"
+  authors:
+    - Juzheng Miao
+    - <strong>Cheng Chen</strong>
+    - Yuchen Yuan
+    - Quanzheng Li
+    - Pheng-Ann Heng
+  publisher: "Medical Image Analysis (MedIA)"
+  date: "2026-02-03"
+  link: https://www.sciencedirect.com/science/article/pii/S1361841526000423
+  image: images/publications/cpac-sam.png
+
+- title: "Bures-Isotropy Alignment: Manifold Learning of Generalized Category Discovery"
+  authors:
+    - Luyao Tang
+    - Kunze Huang
+    - Chaoqi Chen
+    - <strong>Cheng Chen</strong>
+  publisher: "ICLR"
+  date: "2026-01-26"
+  link: https://openreview.net/forum?id=nfVKTJ1MJ3
+  image: images/publications/bures-isotropy-alignment.png
+
+- title: "Deep Model Adaptation without Target Labels on Cross-domain Medical Images"
+  authors:
+    - <strong>Cheng Chen</strong>
+    - Quande Liu
+    - Qi Dou
+    - Pheng Ann Heng
+  publisher: "Less-supervised Segmentation with CNNs"
+  date: "2026-01-01"
+  link: https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780323956741000159
+  image: images/publications/deep-model-adaptation-without-target-labels.png
+
+- title: "Cerebrovascular Diseases Screening from Color Fundus Photography via Cross-View Fusion and Graph-Based Discrimination"
+  authors:
+    - Congyu Tian
+    - Shihao Zou
+    - Xiangyun Liao
+    - <strong>Cheng Chen</strong>
+    - Chubin Ou
+    - Jianping Lv
+    - Shanshan Wang
+    - Weixin Si
+  publisher: "MICCAI"
+  date: "2025-09-19"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-05162-2_19
+  image: images/publications/cerebrovascular-diseases-screening.png
+
+- title: "Robust Incomplete-Modality Alignment for Ophthalmic Disease Grading and Diagnosis via Labeled Optimal Transport"
+  authors:
+    - Qinkai Yu
+    - Jianyang Xie
+    - Yitian Zhao
+    - <strong>Cheng Chen</strong>
+    - Lijun Zhang
+    - Liming Chen
+    - Jun Cheng
+    - Lu Liu
+    - Yalin Zheng
+    - Yanda Meng
+  publisher: "MICCAI"
+  date: "2025-09-18"
+  link: https://link.springer.com/chapter/10.1007/978-3-032-05182-0_54
+  image: images/publications/robust-incomplete-modality-alignment.png
+
+- title: "Towards Fair Decentralized Benchmarking of Healthcare AI Algorithms with the Federated Tumor Segmentation (FeTS) Challenge"
+  authors:
+    - Maximilian Zenk
+    - Ujjwal Baid
+    - Sarthak Pati
+    - et al.
+  publisher: "Nature Communications"
+  date: "2025-07-08"
+  link: https://www.nature.com/articles/s41467-025-60466-1
+  image: images/publications/fets-challenge.png
+
+- title: "Enhancing Diagnostic Accuracy in Rare and Common Fundus Diseases with a Knowledge-Rich Vision-Language Model"
+  authors:
+    - Meng Wang
+    - Tian Lin
+    - Aidi Lin
+    - et al.
+  publisher: "Nature Communications"
+  date: "2025-07-01"
+  link: https://www.nature.com/articles/s41467-025-60577-9
+  image: images/publications/retizero.png
+
+- title: "EchoFM: Foundation Model for Generalizable Echocardiogram Analysis"
+  authors:
+    - Sekeun Kim
+    - Pengfei Jin
+    - Shuai Song
+    - <strong>Cheng Chen</strong>
+    - Yuhui Li
+    - Hanwen Ren
+    - Xiang Li
+    - Tianming Liu
+    - Quanzheng Li
+  publisher: "IEEE Transactions on Medical Imaging (TMI)"
+  date: "2025-10-01"
+  link: https://ieeexplore.ieee.org/abstract/document/11040094
+  image: images/publications/echofm.png
+
+- title: "Hodgkin Lymphoma-Based Intensity Preprocessing and Foundation Model-Based Automated Segmentation"
+  authors:
+    - Sifan Song
+    - Christoph Clement
+    - Robert Seifert
+    - <strong>Cheng Chen</strong>
+    - et al.
+  publisher: "Journal of Nuclear Medicine (JNM)"
+  date: "2025-06-01"
+  link: https://jnm.snmjournals.org/content/66/supplement_1/251631.abstract
+  image: images/publications/hodgkin-lymphoma-foundation-model-segmentation.png
+
+- title: "Radiology-GPT: A Large Language Model for Radiology"
+  authors:
+    - Zhengliang Liu
+    - Yiwei Li
+    - Peng Shu
+    - et al.
+  publisher: "Meta-Radiology"
+  date: "2025-06-01"
+  link: https://www.sciencedirect.com/science/article/pii/S2950162825000219
+  image: images/publications/radiology-gpt.png
+
+- title: "LLM-Guided Decoupled Probabilistic Prompt for Continual Learning in Medical Image Diagnosis"
+  authors:
+    - Yiwen Luo
+    - Wuyang Li
+    - <strong>Cheng Chen</strong>
+    - Xiang Li
+    - Tianming Liu
+    - Tianye Niu
+  publisher: "IEEE Transactions on Medical Imaging (TMI)"
+  date: "2025-08-01"
+  link: https://ieeexplore.ieee.org/abstract/document/10981824
+  image: images/publications/llm-guided-decoupled-probabilistic-prompt.png
+
+- title: "Multi-Organ Segmentation From Partially Labeled and Unaligned Multi-Modal MRI in Thyroid-Associated Orbitopathy"
+  authors:
+    - <strong>Cheng Chen</strong>
+    - Min Deng
+    - Yuan Zhong
+    - Jinyue Cai
+    - Karen Kar Wun Chan
+    - Qi Dou
+  publisher: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
+  date: "2025-06-01"
+  link: https://ieeexplore.ieee.org/abstract/document/10902037
+  image: images/publications/multi-organ-segmentation-tao.png
+
+- title: "MediViSTA: Medical Video Segmentation Via Temporal Fusion SAM Adaptation for Echocardiography"
+  authors:
+    - Sekeun Kim
+    - Pengfei Jin
+    - <strong>Cheng Chen</strong>
+    - Kyungsang Kim
+    - Zhiliang Lyu
+    - Hui Ren
+  publisher: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
+  date: "2025-02-10"
+  link: https://ieeexplore.ieee.org/abstract/document/10878483
+  image: images/publications/medivista.png
+
+- title: "GM-ABS: Promptable Generalist Model Drives Active Barely Supervised Training in Specialist Model for 3D Medical Image Segmentation"
+  authors:
+    - Zhe Xu
+    - <strong>Cheng Chen</strong>
+    - Donghuan Lu
+    - Jinghan Sun
+    - Dong Wei
+    - Yefeng Zheng
+  publisher: "IEEE Transactions on Medical Imaging (TMI)"
+  date: "2025-08-07"
+  link: https://ieeexplore.ieee.org/abstract/document/11119675
+  image: images/publications/gm-abs.png
+
+
