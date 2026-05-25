@@ -8,7 +8,7 @@
   publisher: "CVPR"
   date: "2021-06-01"
   link: https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html
-  image: images/publications/feddg.jpg
+  image: images/publications/feddg.png
 
 - title: "Unsupervised Bidirectional Cross-Modality Adaptation via Deeply Synergistic Image and Feature Alignment for Medical Image Segmentation"
   authors:
@@ -20,4 +20,4 @@
   publisher: "IEEE Transactions on Medical Imaging (TMI)"
   date: "2020-07-01"
   link: https://ieeexplore.ieee.org/abstract/document/8988158
-  image: images/publications/unsupervised-bidirectional-cross-modality-adaptation.jpg
+  image: images/publications/unsupervised-bidirectional-cross-modality-adaptation.png
