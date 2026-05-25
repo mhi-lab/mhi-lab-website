@@ -102,7 +102,10 @@ $wrap: 800px;
   }
 }
 
-.citation strong {
-  font-weight: 800 !important;
-  color: #000;
+.highlight-author {
+  font-weight: 900 !important;
+  color: #005bbb !important;
+  background: #eef6ff;
+  padding: 0 4px;
+  border-radius: 4px;
 }
