@@ -102,6 +102,10 @@ $wrap: 800px;
   }
 }
 
-.highlight-author {
-  font-weight: 2000 !important;
+.citation-authors {
+  font-weight: 400;
+}
+
+.citation-authors .highlight-author {
+  font-weight: 900 !important;
 }
