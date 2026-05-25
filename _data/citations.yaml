@@ -65,7 +65,7 @@
     - Pheng Ann Heng
   publisher: "AAAI"
   date: "2022-01-01"
-  link: https://www.aaai.org/AAAI22Papers/AAAI-852.LiuQ.pdf
+  link: https://arxiv.org/abs/2206.14467
   image: images/publications/single-domain-generalization.jpg
 
 - title: "Learning with Privileged Multimodal Knowledge for Unimodal Segmentation"
