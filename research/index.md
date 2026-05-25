@@ -5,12 +5,6 @@ nav:
   tooltip: Research Topics
 ---
 
-## Publications
+# Research Topics
 
-{% comment %}
-{% include search-box.html %}
 
-{% include search-info.html %}
-{% endcomment %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
