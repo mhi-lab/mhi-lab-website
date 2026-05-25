@@ -8,12 +8,12 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@mhi-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: mhi-lab
-  twitter: mhi-lab
-  youtube: mhi-lab
+  # email: contact@mhi-lab.com
+  # orcid: 0000-0001-8713-9213
+  # google-scholar: ETJoidYAAAAJ
+  # github: mhi-lab
+  # twitter: mhi-lab
+  # youtube: mhi-lab
 
 ### jekyll settings
 
