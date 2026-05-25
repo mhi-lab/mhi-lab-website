@@ -1,8 +1,8 @@
 ---
-title: Publication
+title: Research
 nav:
   order: 5
-  tooltip: Published works
+  tooltip: Research Topics
 ---
 
 ## Publications
