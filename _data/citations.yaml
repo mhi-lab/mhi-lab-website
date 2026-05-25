@@ -1,7 +1,7 @@
 - title: "FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space"
   authors:
     - Quande Liu
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Jing Qin
     - Qi Dou
     - Pheng-Ann Heng
@@ -12,7 +12,7 @@
 
 - title: "Unsupervised Bidirectional Cross-Modality Adaptation via Deeply Synergistic Image and Feature Alignment for Medical Image Segmentation"
   authors:
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Qi Dou
     - Hao Chen
     - Jing Qin
@@ -24,7 +24,7 @@
 
 - title: "Synergistic Image and Feature Adaptation: Towards Cross-Modality Domain Adaptation for Medical Image Segmentation"
   authors:
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Qi Dou
     - Hao Chen
     - Jing Qin
@@ -38,7 +38,7 @@
   authors:
     - Weiren Zhao
     - Yi Dong
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
   publisher: "ICML"
   date: "2026-05-09"
   link: https://arxiv.org/abs/2605.08724
@@ -51,7 +51,7 @@
     - Sifan Song
     - Sekeun Kim
     - Qing Xiao
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Tianming Liu
     - Xiang Li
     - Quanzheng Li
@@ -63,7 +63,7 @@
 - title: "Tackling Dual-stage Missing Modalities in Brain Tumor Segmentation via Robust Modality Reconstruction and Prompt-guided Modality Adaptation"
   authors:
     - Yunpeng Zhao
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Qing You Pang
     - Yibing Fu
     - Quanzheng Li
@@ -80,7 +80,7 @@
     - Yibing Fu
     - Yunpeng Zhao
     - Zhitao Zeng
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Yueming Jin
   publisher: "AAAI"
   date: "2026-03-14"
@@ -90,7 +90,7 @@
 - title: "SAM-Driven Cross Prompting with Adaptive Sampling Consistency for Semi-supervised Medical Image Segmentation"
   authors:
     - Juzheng Miao
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Yuchen Yuan
     - Quanzheng Li
     - Pheng-Ann Heng
@@ -104,7 +104,7 @@
     - Luyao Tang
     - Kunze Huang
     - Chaoqi Chen
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
   publisher: "ICLR"
   date: "2026-01-26"
   link: https://openreview.net/forum?id=nfVKTJ1MJ3
@@ -112,7 +112,7 @@
 
 - title: "Deep Model Adaptation without Target Labels on Cross-domain Medical Images"
   authors:
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Quande Liu
     - Qi Dou
     - Pheng Ann Heng
@@ -126,7 +126,7 @@
     - Congyu Tian
     - Shihao Zou
     - Xiangyun Liao
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Chubin Ou
     - Jianping Lv
     - Shanshan Wang
@@ -141,7 +141,7 @@
     - Qinkai Yu
     - Jianyang Xie
     - Yitian Zhao
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Lijun Zhang
     - Liming Chen
     - Jun Cheng
@@ -180,7 +180,7 @@
     - Sekeun Kim
     - Pengfei Jin
     - Shuai Song
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Yuhui Li
     - Hanwen Ren
     - Xiang Li
@@ -196,7 +196,7 @@
     - Sifan Song
     - Christoph Clement
     - Robert Seifert
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - et al.
   publisher: "Journal of Nuclear Medicine (JNM)"
   date: "2025-06-01"
@@ -218,7 +218,7 @@
   authors:
     - Yiwen Luo
     - Wuyang Li
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Xiang Li
     - Tianming Liu
     - Tianye Niu
@@ -229,7 +229,7 @@
 
 - title: "Multi-Organ Segmentation From Partially Labeled and Unaligned Multi-Modal MRI in Thyroid-Associated Orbitopathy"
   authors:
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Min Deng
     - Yuan Zhong
     - Jinyue Cai
@@ -244,7 +244,7 @@
   authors:
     - Sekeun Kim
     - Pengfei Jin
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Kyungsang Kim
     - Zhiliang Lyu
     - Hui Ren
@@ -256,7 +256,7 @@
 - title: "GM-ABS: Promptable Generalist Model Drives Active Barely Supervised Training in Specialist Model for 3D Medical Image Segmentation"
   authors:
     - Zhe Xu
-    - <strong>Cheng Chen</strong>
+    - Cheng Chen
     - Donghuan Lu
     - Jinghan Sun
     - Dong Wei
