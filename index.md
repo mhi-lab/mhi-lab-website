@@ -111,10 +111,13 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
 
 <script>
 let currentPub = 0;
+let pubTimer = null;
 
 function showPub(index) {
   const slides = document.querySelectorAll(".pub-slide");
   const dots = document.querySelectorAll(".pub-dot");
+
+  if (!slides.length) return;
 
   if (index < 0) {
     currentPub = slides.length - 1;
@@ -133,5 +136,21 @@ function showPub(index) {
 
 function changePub(step) {
   showPub(currentPub + step);
+  resetPubTimer();
 }
+
+function startPubTimer() {
+  pubTimer = setInterval(function () {
+    showPub(currentPub + 1);
+  }, 8000);
+}
+
+function resetPubTimer() {
+  if (pubTimer) {
+    clearInterval(pubTimer);
+  }
+  startPubTimer();
+}
+
+startPubTimer();
 </script>
