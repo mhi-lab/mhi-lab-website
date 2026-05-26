@@ -29,9 +29,11 @@
 
 .pub-slide img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: 380px;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: #ffffff;
 }
 
 .pub-content {
