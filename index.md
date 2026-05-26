@@ -22,32 +22,66 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
   <div class="pub-slides">
 
     <div class="pub-slide is-active">
-      <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+      <img src="{{ 'images/publications/ma-sam.png' | relative_url }}" alt="MA-SAM paper image">
       <div class="pub-content">
-        <h3>Paper Title 1</h3>
+        <h3>MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation</h3>
         <p>
-          This is the abstract of the first selected paper. Replace this text with the real abstract.
+          <strong>Authors:</strong> Cheng Chen, Juzheng Miao, Dufan Wu, Zhiling Yan, Sekeun Kim, Jiang Hu, Aoxiao Zhong, Zhengliang Liu, Lichao Sun, Xiang Li, Tianming Liu, Pheng-Ann Heng, Quanzheng Li
         </p>
+        <p>
+          <strong>Venue:</strong> Medical Image Analysis (MedIA), 2024
+        </p>
+        <a class="pub-link" href="https://www.sciencedirect.com/science/article/pii/S1361841524002354" target="_blank" rel="noopener noreferrer">
+          View Paper
+        </a>
       </div>
     </div>
 
     <div class="pub-slide">
-      <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+      <img src="{{ 'images/publications/synermedgen.png' | relative_url }}" alt="SynerMedGen paper image">
       <div class="pub-content">
-        <h3>Paper Title 2</h3>
+        <h3>SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment</h3>
         <p>
-          This is the abstract of the second selected paper. Replace this text with the real abstract.
+          <strong>Authors:</strong> Weiren Zhao, Yi Dong, Cheng Chen
         </p>
+        <p>
+          <strong>Venue:</strong> ICML, 2026
+        </p>
+        <a class="pub-link" href="https://arxiv.org/abs/2605.08724" target="_blank" rel="noopener noreferrer">
+          View Paper
+        </a>
       </div>
     </div>
 
     <div class="pub-slide">
-      <img src="{{ 'images/photo.jpg' | relative_url }}" alt="Paper image">
+      <img src="{{ 'images/publications/cogegcd.png' | relative_url }}" alt="Compositional Perception and Generalizing Induction paper image">
       <div class="pub-content">
-        <h3>Paper Title 3</h3>
+        <h3>Compositional Perception and Generalizing Induction: Latent Compositional Manifold Assumption on Generalized Category Discovery</h3>
         <p>
-          This is the abstract of the third selected paper. Replace this text with the real abstract.
+          <strong>Authors:</strong> Luyao Tang, Jiewei Zheng, Kunze Huang, Chaoqi Chen, Yue Huang, Cheng Chen
         </p>
+        <p>
+          <strong>Venue:</strong> ICML, 2026
+        </p>
+        <a class="pub-link" href="#" onclick="return false;">
+          View Paper
+        </a>
+      </div>
+    </div>
+
+    <div class="pub-slide">
+      <img src="{{ 'images/publications/bures-isotropy-alignment.png' | relative_url }}" alt="Bures-Isotropy Alignment paper image">
+      <div class="pub-content">
+        <h3>Bures-Isotropy Alignment: Manifold Learning of Generalized Category Discovery</h3>
+        <p>
+          <strong>Authors:</strong> Luyao Tang, Kunze Huang, Chaoqi Chen, Cheng Chen
+        </p>
+        <p>
+          <strong>Venue:</strong> ICLR, 2026
+        </p>
+        <a class="pub-link" href="https://openreview.net/forum?id=nfVKTJ1MJ3" target="_blank" rel="noopener noreferrer">
+          View Paper
+        </a>
       </div>
     </div>
 
@@ -63,11 +97,12 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
   <button class="pub-dot is-active" type="button" onclick="showPub(0)"></button>
   <button class="pub-dot" type="button" onclick="showPub(1)"></button>
   <button class="pub-dot" type="button" onclick="showPub(2)"></button>
+  <button class="pub-dot" type="button" onclick="showPub(3)"></button>
 </div>
 
 {%
   include button.html
-  link="research"
+  link="publication"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
