@@ -13,10 +13,10 @@ nav:
 
 <h2>PhD Students</h2>
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" sort="team_order" %}
 
 <h2>RA & Intern</h2>
 
-{% include list.html data="members" component="portrait" filter="role == 'ra' or role == 'intern'" %}
+{% include list.html data="members" component="portrait" filter="role == 'ra' or role == 'intern'" sort="team_order" %}
 
 </div>
