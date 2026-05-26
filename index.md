@@ -94,10 +94,10 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
 </div>
 
 <div class="pub-dots">
-  <button class="pub-dot is-active" type="button" onclick="showPub(0)"></button>
-  <button class="pub-dot" type="button" onclick="showPub(1)"></button>
-  <button class="pub-dot" type="button" onclick="showPub(2)"></button>
-  <button class="pub-dot" type="button" onclick="showPub(3)"></button>
+  <button class="pub-dot is-active" type="button" onclick="showPub(0); resetPubTimer();"></button>
+  <button class="pub-dot" type="button" onclick="showPub(1); resetPubTimer();"></button>
+  <button class="pub-dot" type="button" onclick="showPub(2); resetPubTimer();"></button>
+  <button class="pub-dot" type="button" onclick="showPub(3); resetPubTimer();"></button>
 </div>
 
 {%
@@ -114,10 +114,11 @@ let currentPub = 0;
 let pubTimer = null;
 
 function showPub(index) {
+  const track = document.querySelector(".pub-slides");
   const slides = document.querySelectorAll(".pub-slide");
   const dots = document.querySelectorAll(".pub-dot");
 
-  if (!slides.length) return;
+  if (!track || !slides.length) return;
 
   if (index < 0) {
     currentPub = slides.length - 1;
@@ -126,6 +127,8 @@ function showPub(index) {
   } else {
     currentPub = index;
   }
+
+  track.style.transform = `translateX(-${currentPub * 100}%)`;
 
   slides.forEach(slide => slide.classList.remove("is-active"));
   dots.forEach(dot => dot.classList.remove("is-active"));
@@ -152,5 +155,6 @@ function resetPubTimer() {
   startPubTimer();
 }
 
+showPub(0);
 startPubTimer();
 </script>
