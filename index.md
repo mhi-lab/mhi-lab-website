@@ -11,7 +11,7 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
 
 {% include section.html %}
 
-## Selected Papers
+## Highlights
 
 <div class="pub-carousel">
 
