@@ -44,6 +44,19 @@
   link: https://arxiv.org/abs/2605.08724
   image: images/publications/synermedgen.png
 
+- title: "Compositional Perception and Generalizing Induction: Latent Compositional Manifold Assumption on Generalized Category Discovery"
+  authors:
+    - Luyao Tang
+    - Jiewei Zheng
+    - Kunze Huang
+    - Chaoqi Chen
+    - Yue Huang
+    - Cheng Chen
+  publisher: "ICML"
+  date: "2026-07-06"
+  link: 
+  image: images/publications/cogegcd.png
+  
 - title: "Beyond Adapter Retrieval: Latent Geometry-Preserving Composition via Sparse Task Projection"
   authors:
     - Pengfei Jin
