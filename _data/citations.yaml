@@ -34,6 +34,26 @@
   link: https://ojs.aaai.org/index.php/AAAI/article/view/3874
   image: images/publications/synergistic-image-and-feature-adaptation.png
 
+- title: "MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation"
+  authors:
+    - Cheng Chen
+    - Juzheng Miao
+    - Dufan Wu
+    - Zhiling Yan
+    - Sekeun Kim
+    - Jiang Hu
+    - Aoxiao Zhong
+    - Zhengliang Liu
+    - Lichao Sun
+    - Xiang Li
+    - Tianming Liu
+    - Pheng-Ann Heng
+    - Quanzheng Li
+  publisher: "Medical Image Analysis (MedIA)"
+  date: "2024-12-01"
+  link: https://www.sciencedirect.com/science/article/pii/S1361841524002354
+  image: images/publications/ma-sam.png
+  
 - title: "SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment"
   authors:
     - Weiren Zhao
