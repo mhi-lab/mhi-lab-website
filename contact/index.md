@@ -14,6 +14,8 @@ main li {
 
 ## **OPEN POSITIONS**
 
+For applications and inquiries, please contact Prof. Cheng Chen at [cchen@eee.hku.hk](mailto:cchen@eee.hku.hk).
+
 ### **Prospective PhD Student**
 
 - We are looking for self-motivated PhD students who are interested in medical AI. Please drop me an email with your CV, transcripts, 1–2 page research statement (optional).
