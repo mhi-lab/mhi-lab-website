@@ -3,7 +3,7 @@
     - Quande Liu
     - Cheng Chen
     - Jing Qin
-    - Qi Dou
+    - "Qi Dou<sup>†</sup>"
     - Pheng-Ann Heng
   publisher: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   date: "2021-06-01"
@@ -13,7 +13,7 @@
 - title: "Unsupervised Bidirectional Cross-Modality Adaptation via Deeply Synergistic Image and Feature Alignment for Medical Image Segmentation"
   authors:
     - Cheng Chen
-    - Qi Dou
+    - "Qi Dou<sup>†</sup>"
     - Hao Chen
     - Jing Qin
     - Pheng-Ann Heng
@@ -28,7 +28,7 @@
     - Qi Dou
     - Hao Chen
     - Jing Qin
-    - Pheng-Ann Heng
+    - "Pheng-Ann Heng<sup>†</sup>"
   publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2019-07-17"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/3874
@@ -45,7 +45,7 @@
     - Aoxiao Zhong
     - Zhengliang Liu
     - Lichao Sun
-    - Xiang Li
+    - "Xiang Li<sup>†</sup>"
     - Tianming Liu
     - Pheng-Ann Heng
     - Quanzheng Li
@@ -58,36 +58,36 @@
   authors:
     - Weiren Zhao
     - Yi Dong
-    - Cheng Chen
+    - "Cheng Chen<sup>†</sup>"
   publisher: "International Conference on Machine Learning (ICML)"
   date: "2026-05-09"
   link: https://arxiv.org/abs/2605.08724
   image: images/publications/synermedgen.png
 
-- title: "Compositional Perception and Generalizing Induction: Latent Compositional Manifold Assumption on Generalized Category Discovery"
+- title: "CoGe-GCD: Reframing Generalized Category Discovery with Compositional Generalization"
   authors:
     - Luyao Tang
     - Jiewei Zheng
     - Kunze Huang
     - Chaoqi Chen
     - Yue Huang
-    - Cheng Chen
+    - "Cheng Chen<sup>†</sup>"
   publisher: "International Conference on Machine Learning (ICML)"
   date: "2026-07-06"
-  link: 
+  link: https://openreview.net/forum?id=YA3AvVx2Ze
   image: images/publications/cogegcd.png
   
 - title: "Beyond Adapter Retrieval: Latent Geometry-Preserving Composition via Sparse Task Projection"
   authors:
-    - Pengfei Jin
-    - Peng Shu
+    - "Pengfei Jin<sup>*</sup>"
+    - "Peng Shu<sup>*</sup>"
     - Sifan Song
     - Sekeun Kim
     - Qing Xiao
     - Cheng Chen
     - Tianming Liu
     - Xiang Li
-    - Quanzheng Li
+    - "Quanzheng Li<sup>†</sup>"
   publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/39400
@@ -95,14 +95,14 @@
 
 - title: "Tackling Dual-stage Missing Modalities in Brain Tumor Segmentation via Robust Modality Reconstruction and Prompt-guided Modality Adaptation"
   authors:
-    - Yunpeng Zhao
-    - Cheng Chen
+    - "Yunpeng Zhao<sup>*</sup>"
+    - "Cheng Chen<sup>*</sup>"
     - Qing You Pang
     - Yibing Fu
     - Quanzheng Li
     - Carol Tang
     - Beng Ti Ang
-    - Yueming Jin
+    - "Yueming Jin<sup>†</sup>"
   publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/38334
@@ -114,7 +114,7 @@
     - Yunpeng Zhao
     - Zhitao Zeng
     - Cheng Chen
-    - Yueming Jin
+    - "Yueming Jin<sup>†</sup>"
   publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/37408
@@ -123,7 +123,7 @@
 - title: "SAM-Driven Cross Prompting with Adaptive Sampling Consistency for Semi-supervised Medical Image Segmentation"
   authors:
     - Juzheng Miao
-    - Cheng Chen
+    - "Cheng Chen<sup>†</sup>"
     - Yuchen Yuan
     - Quanzheng Li
     - Pheng-Ann Heng
@@ -134,10 +134,10 @@
 
 - title: "Bures-Isotropy Alignment: Manifold Learning of Generalized Category Discovery"
   authors:
-    - Luyao Tang
-    - Kunze Huang
+    - "Luyao Tang<sup>*</sup>"
+    - "Kunze Huang<sup>*</sup>"
     - Chaoqi Chen
-    - Cheng Chen
+    - "Cheng Chen<sup>†</sup>"
   publisher: "International Conference on Learning Representations (ICLR)"
   date: "2026-01-26"
   link: https://openreview.net/forum?id=nfVKTJ1MJ3
