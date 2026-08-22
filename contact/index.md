@@ -29,7 +29,6 @@ nav:
 Due to the large volume of emails I receive, I may not be able to respond to every applicant, including many excellent candidates. Please be assured that I review all emails carefully, so there is no need to send multiple applications. I will contact applicants whose research interests and experience most closely align with our group. I sincerely wish you every success in finding the position that is right for you.
 </p>
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 {%
   include button.html
@@ -40,8 +39,8 @@ Due to the large volume of emails I receive, I may not be able to respond to eve
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="Pending"
+  link="#"
 %}
 {%
   include button.html
