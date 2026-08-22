@@ -314,4 +314,307 @@
   link: https://ieeexplore.ieee.org/abstract/document/11119675
   image: images/publications/gm-abs.png
 
+- title: "REFLEX-Med: Reinforcement with Label-Free Explainability for Unified Medical Reasoning"
+  authors:
+    - Luyao Tang
+    - Zheyuan Cai
+    - Qinong Tian
+    - Zi Li
+    - Quande Liu
+    - Yue Huang
+    - Kyongtae T Bae
+    - "Cheng Chen<sup>†</sup>"
+  publisher: "15th IEEE Image, Video, and Multidimensional Signal Processing Workshop (IEEE IVMSP)"
+  date: "2026-08-01"
+  link: "https://ieeexplore.ieee.org/abstract/document/11618840"
+  image: images/publications/reflex-med.png
+  description: "**[Best Paper Award]**"
+
+- title: "Generalized Biomedicine Discovery"
+  authors:
+    - Luyao Tang
+    - Yingkai Yang
+    - Hanqi Chen
+    - Jiewei Zheng
+    - Chaoqi Chen
+    - "Cheng Chen<sup>†</sup>"
+  publisher: "European Conference on Computer Vision (ECCV)"
+  date: "2026-07-01"
+  link: "https://scholar.google.com/scholar?q=Generalized+Biomedicine+Discovery"
+  image: images/publications/generalized-biomedicine-discovery.png
+
+- title: "Mask SAM 3D for Coronary Artery and Plaque Segmentation in CCTA Images"
+  authors:
+    - RenZhe Tu
+    - CongYu Tian
+    - LinYuan Wang
+    - YongZhi Deng
+    - "Cheng Chen<sup>†</sup>"
+    - "WeiXin Si<sup>†</sup>"
+    - ShanShan Wang
+  publisher: "International Journal of Computer Assisted Radiology and Surgery (IJCARS)"
+  date: "2026-01-01"
+  link: "https://link.springer.com/article/10.1007/s11548-025-03536-5"
+  image: images/publications/mask-sam-3d.png
+
+- title: "Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Anomaly Detection in Medical Images"
+  authors:
+    - Juzheng Miao
+    - Yuchen Yuan
+    - "Cheng Chen<sup>†</sup>"
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2026-01-01"
+  link: "https://scholar.google.com/scholar?q=Bridging+Vision+Foundation+Model+Priors+with+CLIP+for+Spatial-aware+Few-shot+Anomaly+Detection+in+Medical+Images"
+  image: images/publications/bridging-vision-clip.png
+
+- title: "Cross Prompting Consistency with Segment Anything Model for Semi-supervised Medical Image Segmentation"
+  authors:
+    - Juzheng Miao
+    - "Cheng Chen<sup>†</sup>"
+    - Keli Zhang
+    - Jie Chuai
+    - Quanzheng Li
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2024-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_16"
+  image: images/publications/cross-prompting-consistency.png
+
+- title: "Causal Effect Estimation on Imaging and Clinical Data for Treatment Decision Support of Aneurysmal Subarachnoid Hemorrhage"
+  authors:
+    - Wenao Ma
+    - Cheng Chen
+    - Yuqi Gong
+    - Nga Yan Chan
+    - Meirui Jiang
+    - "Calvin Hoi-Kwan Mak<sup>†</sup>"
+    - "Jill M. Abrigo<sup>†</sup>"
+    - "Qi Dou<sup>†</sup>"
+  publisher: "IEEE Transactions on Medical Imaging (IEEE TMI)"
+  date: "2024-01-01"
+  link: "https://ieeexplore.ieee.org/abstract/document/10504783"
+  image: images/publications/causal-effect-estimation.png
+
+- title: "FM-OSD: Foundation Model-Enabled One-Shot Detection of Anatomical Landmarks"
+  authors:
+    - Juzheng Miao
+    - "Cheng Chen<sup>†</sup>"
+    - Keli Zhang
+    - Jie Chuai
+    - Quanzheng Li
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2024-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-72120-5_28"
+  image: images/publications/fm-osd.png
+
+- title: "FM-ABS: Promptable Foundation Model Drives Active Barely Supervised Learning for 3D Medical Image Segmentation"
+  authors:
+    - Zhe Xu
+    - Cheng Chen
+    - Donghuan Lu
+    - Jinghan Sun
+    - Dong Wei
+    - Yefeng Zheng
+    - "Quanzheng Li<sup>†</sup>"
+    - "Raymond Tong<sup>†</sup>"
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2024-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-72111-3_28"
+  image: images/publications/fm-abs.png
+
+- title: "Contrastive Masked Image-Text Modeling for Medical Visual Representation Learning"
+  authors:
+    - Cheng Chen
+    - Aoxiao Zhong
+    - Dufan Wu
+    - Jie Luo
+    - "Quanzheng Li<sup>†</sup>"
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2023-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-43904-9_48"
+  image: images/publications/contrastive-masked-image-text-modeling.png
+  description: "**[Oral]**"
+
+- title: "Uncertainty Estimation for Safety-critical Scene Segmentation via Fine-grained Reward Maximization"
+  authors:
+    - "Hongzheng Yang<sup>*</sup>"
+    - "Cheng Chen<sup>*</sup>"
+    - Yueyao Chen
+    - Markus Scheppach
+    - Hon Chi Yip
+    - "Qi Dou<sup>†</sup>"
+  publisher: "Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS)"
+  date: "2023-01-01"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/71ec377d5df1fc61ee7770857820519b-Abstract-Conference.html"
+  image: images/publications/uncertainty-estimation.png
+
+- title: "SATTA: Semantic-Aware Test-Time Adaptation for Cross-Domain Medical Image Segmentation"
+  authors:
+    - Yuhan Zhang
+    - Kun Huang
+    - "Cheng Chen<sup>†</sup>"
+    - Qiang Chen
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2023-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-43895-0_14"
+  image: images/publications/satta.png
+
+- title: "CauSSL: Causality-inspired Semi-supervised Learning for Medical Image Segmentation"
+  authors:
+    - Juzheng Miao
+    - Cheng Chen
+    - Furui Liu
+    - Hao Wei
+    - Pheng-Ann Heng
+  publisher: "International Conference on Computer Vision (ICCV)"
+  date: "2023-01-01"
+  link: "https://ieeexplore.ieee.org/abstract/document/10376893"
+  image: images/publications/caussl.png
+
+- title: "Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data"
+  authors:
+    - Wenao Ma
+    - Cheng Chen
+    - Jill Abrigo
+    - Calvin Hoi-Kwan Mak
+    - Yuqi Gong
+    - Nga Yan Chan
+    - Chu Han
+    - Zaiyi Liu
+    - "Qi Dou<sup>†</sup>"
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2023-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-43904-9_69"
+  image: images/publications/treatment-outcome-prediction.png
+
+- title: "Diffusion Model based Semi-supervised Learning on Brain Hemorrhage Images for Efficient Midline Shift Quantification"
+  authors:
+    - Shizhan Gong
+    - Cheng Chen
+    - Yuqi Gong
+    - Nga Yan Chan
+    - Wenao Ma
+    - Calvin Mak
+    - Jill Abrigo
+    - "Qi Dou<sup>†</sup>"
+  publisher: "International Conference on Information Processing in Medical Imaging (IPMI)"
+  date: "2023-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-34048-2_6"
+  image: images/publications/diffusion-midline-shift.png
+  description: "**[Oral]**"
+
+- title: "IOP-FL: Inside-outside Personalization of Federated Medical Image Segmentation"
+  authors:
+    - Meirui Jiang
+    - Yongzheng Yang
+    - Cheng Chen
+    - "Qi Dou<sup>†</sup>"
+  publisher: "IEEE Transactions on Medical Imaging (IEEE TMI)"
+  date: "2023-01-01"
+  link: "https://ieeexplore.ieee.org/abstract/document/10086676"
+  image: images/publications/iop-fl.png
+
+- title: "DLTTA: Dynamic Learning of Test-time Adaptation for Cross-domain Medical Images"
+  authors:
+    - Hongzheng Yang
+    - "Cheng Chen<sup>†</sup>"
+    - Meirui Jiang
+    - Quande Liu
+    - Jianfeng Cao
+    - Pheng-Ann Heng
+    - Qi Dou
+  publisher: "IEEE Transactions on Medical Imaging (IEEE TMI)"
+  date: "2022-01-01"
+  link: "https://ieeexplore.ieee.org/abstract/document/9830762"
+  image: images/publications/dltta.png
+
+- title: "Single-domain Generalization in Medical Image Segmentation via Test-time Adaptation from Shape Dictionary"
+  authors:
+    - Quande Liu
+    - Cheng Chen
+    - Qi Dou
+    - Pheng-Ann Heng
+  publisher: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+  date: "2022-01-01"
+  link: "https://ojs.aaai.org/index.php/AAAI/article/view/20068"
+  image: images/publications/single-domain-generalization.png
+
+- title: "Federated Learning Enabling Big Data for Cancer Detection"
+  authors:
+    - Sarthak Pati
+    - Ujjwal Baid
+    - Brandon Edwards
+    - Micah Sheller
+    - Shih-Han Wang
+    - G Anthony Reina
+    - et al.
+  publisher: "Nature Communications"
+  date: "2022-01-01"
+  link: "https://www.nature.com/articles/s41467-022-33407-5"
+  image: images/publications/federated-learning-cancer-detection.png
+
+- title: "Test-time Adaptation with Calibration of Medical Image Classification Nets for Label Distribution Shift"
+  authors:
+    - Wenao Ma
+    - Cheng Chen
+    - Shuang Zheng
+    - Jing Qin
+    - "Huimao Zhang<sup>†</sup>"
+    - "Qi Dou<sup>†</sup>"
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2022-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-16437-8_30"
+  image: images/publications/test-time-adaptation-calibration.png
+
+- title: "Learning with Privileged Multimodal Knowledge for Unimodal Segmentation"
+  authors:
+    - Cheng Chen
+    - Qi Dou
+    - Yueming Jin
+    - Quande Liu
+    - Pheng-Ann Heng
+  publisher: "IEEE Transactions on Medical Imaging (IEEE TMI)"
+  date: "2021-01-01"
+  link: "https://ieeexplore.ieee.org/document/9567675"
+  image: images/publications/privileged-multimodal-knowledge.png
+
+- title: "Source-Free Domain Adaptive Fundus Image Segmentation with Denoised Pseudo-Labeling"
+  authors:
+    - "Cheng Chen<sup>†</sup>"
+    - Quande Liu
+    - Yueming Jin
+    - Qi Dou
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2021-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-030-87240-3_22"
+  image: images/publications/source-free-fundus-segmentation.png
+
+- title: "Robust Multimodal Brain Tumor Segmentation via Feature Disentanglement and Gated Fusion"
+  authors:
+    - "Cheng Chen<sup>†</sup>"
+    - Qi Dou
+    - Yueming Jin
+    - Hao Chen
+    - Jing Qin
+    - Pheng-Ann Heng
+  publisher: "Medical Image Computing and Computer Assisted Intervention (MICCAI)"
+  date: "2019-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-030-32248-9_50"
+  image: images/publications/robust-multimodal-brain-tumor-segmentation.png
+
+- title: "Semantic-Aware Generative Adversarial Nets for Unsupervised Domain Adaptation in Chest X-ray Segmentation"
+  authors:
+    - "Cheng Chen<sup>†</sup>"
+    - Qi Dou
+    - Hao Chen
+    - Pheng-Ann Heng
+  publisher: "International Workshop on Machine Learning in Medical Imaging (MLMI)"
+  date: "2018-01-01"
+  link: "https://link.springer.com/chapter/10.1007/978-3-030-00919-9_17"
+  image: images/publications/semantic-aware-gan.png
+  description: "**[Oral]**"
 
