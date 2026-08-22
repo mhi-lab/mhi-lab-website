@@ -13,7 +13,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 0px;
+  padding: 10px;
   box-shadow: var(--shadow);
 
   @if $sticky {
@@ -39,7 +39,7 @@ header a {
 }
 
 .logo {
-  height: $logo;
+  height: 25px;
 }
 
 .logo > * {
@@ -59,7 +59,7 @@ header a {
 }
 
 .title {
-  font-size: var(--xxl);
+  font-size: var(--large);
 }
 
 .subtitle {
@@ -106,7 +106,7 @@ nav {
 
 nav > a {
   padding: 5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 nav > a:hover {
