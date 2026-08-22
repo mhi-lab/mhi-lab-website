@@ -5,7 +5,7 @@
     - Jing Qin
     - Qi Dou
     - Pheng-Ann Heng
-  publisher: "CVPR"
+  publisher: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   date: "2021-06-01"
   link: https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html
   image: images/publications/feddg.png
@@ -29,7 +29,7 @@
     - Hao Chen
     - Jing Qin
     - Pheng-Ann Heng
-  publisher: "AAAI"
+  publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2019-07-17"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/3874
   image: images/publications/synergistic-image-and-feature-adaptation.png
@@ -59,7 +59,7 @@
     - Weiren Zhao
     - Yi Dong
     - Cheng Chen
-  publisher: "ICML"
+  publisher: "International Conference on Machine Learning (ICML)"
   date: "2026-05-09"
   link: https://arxiv.org/abs/2605.08724
   image: images/publications/synermedgen.png
@@ -72,7 +72,7 @@
     - Chaoqi Chen
     - Yue Huang
     - Cheng Chen
-  publisher: "ICML"
+  publisher: "International Conference on Machine Learning (ICML)"
   date: "2026-07-06"
   link: 
   image: images/publications/cogegcd.png
@@ -88,7 +88,7 @@
     - Tianming Liu
     - Xiang Li
     - Quanzheng Li
-  publisher: "AAAI"
+  publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/39400
   image: images/publications/beyond-adapter-retrieval.png
@@ -103,7 +103,7 @@
     - Carol Tang
     - Beng Ti Ang
     - Yueming Jin
-  publisher: "AAAI"
+  publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/38334
   image: images/publications/dual-stage-missing-modalities-brain-tumor-segmentation.png
@@ -115,7 +115,7 @@
     - Zhitao Zeng
     - Cheng Chen
     - Yueming Jin
-  publisher: "AAAI"
+  publisher: "AAAI Conference on Artificial Intelligence (AAAI)"
   date: "2026-03-14"
   link: https://ojs.aaai.org/index.php/AAAI/article/view/37408
   image: images/publications/image-tabular-self-supervised-learning.png
@@ -138,7 +138,7 @@
     - Kunze Huang
     - Chaoqi Chen
     - Cheng Chen
-  publisher: "ICLR"
+  publisher: "International Conference on Learning Representations (ICLR)"
   date: "2026-01-26"
   link: https://openreview.net/forum?id=nfVKTJ1MJ3
   image: images/publications/bures-isotropy-alignment.png
@@ -164,7 +164,7 @@
     - Jianping Lv
     - Shanshan Wang
     - Weixin Si
-  publisher: "MICCAI"
+  publisher: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
   date: "2025-09-19"
   link: https://link.springer.com/chapter/10.1007/978-3-032-05162-2_19
   image: images/publications/cerebrovascular-diseases-screening.png
@@ -181,7 +181,7 @@
     - Lu Liu
     - Yalin Zheng
     - Yanda Meng
-  publisher: "MICCAI"
+  publisher: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
   date: "2025-09-18"
   link: https://link.springer.com/chapter/10.1007/978-3-032-05182-0_54
   image: images/publications/robust-incomplete-modality-alignment.png
