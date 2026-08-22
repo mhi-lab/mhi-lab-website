@@ -55,6 +55,12 @@
         {% endfor %}
       </div>
 
+      {% if citation.author_note %}
+        <div class="citation-author-note">
+          {{ citation.author_note }}
+        </div>
+      {% endif %}
+      
       <div class="citation-details">
         <span class="citation-publisher">
           {{- citation.publisher | default: "[no publisher info]" -}}
