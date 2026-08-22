@@ -50,14 +50,7 @@
         {% assign shown_authors = citation.authors | array_carve: 5 %}
       
         {% for author in shown_authors %}
-          {% assign clean_author = author | strip_html | strip %}
-      
-          {% if clean_author == "Cheng Chen" %}
-            <span class="highlight-author">Cheng Chen</span>
-          {% else %}
-            {{ author | strip_html }}
-          {% endif %}
-      
+          {{ author }}
           {% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
