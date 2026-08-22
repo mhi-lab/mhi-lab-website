@@ -24,22 +24,6 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
   <div class="pub-slides">
 
     <div class="pub-slide is-active">
-      <img src="{{ 'images/publications/ma-sam.png' | relative_url }}" alt="MA-SAM paper image">
-      <div class="pub-content">
-        <h3>MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation</h3>
-        <p>
-          <strong>Authors:</strong> Cheng Chen, Juzheng Miao, Dufan Wu, Zhiling Yan, Sekeun Kim, Jiang Hu, Aoxiao Zhong, Zhengliang Liu, Lichao Sun, Xiang Li, Tianming Liu, Pheng-Ann Heng, Quanzheng Li
-        </p>
-        <p>
-          <strong>Venue:</strong> Medical Image Analysis (MedIA), 2024
-        </p>
-        <a class="pub-link" href="https://www.sciencedirect.com/science/article/pii/S1361841524002354" target="_blank" rel="noopener noreferrer">
-          View Paper
-        </a>
-      </div>
-    </div>
-
-    <div class="pub-slide">
       <img src="{{ 'images/publications/synermedgen.png' | relative_url }}" alt="SynerMedGen paper image">
       <div class="pub-content">
         <h3>SynerMedGen: Synergizing Medical Multimodal Understanding with Generation via Task Alignment</h3>
@@ -47,7 +31,7 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
           <strong>Authors:</strong> Weiren Zhao, Yi Dong, Cheng Chen
         </p>
         <p>
-          <strong>Venue:</strong> ICML, 2026
+          <strong>Venue:</strong> Forty-third International Conference on Machine Learning (ICML), 2026
         </p>
         <a class="pub-link" href="https://arxiv.org/abs/2605.08724" target="_blank" rel="noopener noreferrer">
           View Paper
@@ -58,14 +42,14 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
     <div class="pub-slide">
       <img src="{{ 'images/publications/cogegcd.png' | relative_url }}" alt="Compositional Perception and Generalizing Induction paper image">
       <div class="pub-content">
-        <h3>Compositional Perception and Generalizing Induction: Latent Compositional Manifold Assumption on Generalized Category Discovery</h3>
+        <h3>CoGe-GCD: Reframing Generalized Category Discovery with Compositional Generalization</h3>
         <p>
           <strong>Authors:</strong> Luyao Tang, Jiewei Zheng, Kunze Huang, Chaoqi Chen, Yue Huang, Cheng Chen
         </p>
         <p>
-          <strong>Venue:</strong> ICML, 2026
+          <strong>Venue:</strong> Forty-third International Conference on Machine Learning (ICML), 2026
         </p>
-        <a class="pub-link" href="#" onclick="return false;">
+        <a class="pub-link" href="https://openreview.net/forum?id=YA3AvVx2Ze" target="_blank" rel="noopener noreferrer">
           View Paper
         </a>
       </div>
@@ -79,9 +63,41 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
           <strong>Authors:</strong> Luyao Tang, Kunze Huang, Chaoqi Chen, Cheng Chen
         </p>
         <p>
-          <strong>Venue:</strong> ICLR, 2026
+          <strong>Venue:</strong> The Fourteenth International Conference on Learning Representations (ICLR), 2026
         </p>
         <a class="pub-link" href="https://openreview.net/forum?id=nfVKTJ1MJ3" target="_blank" rel="noopener noreferrer">
+          View Paper
+        </a>
+      </div>
+    </div>
+
+    <div class="pub-slide">
+      <img src="{{ 'images/publications/reflex-med.png' | relative_url }}" alt="REFLEX-Med paper image">
+      <div class="pub-content">
+        <h3>REFLEX-Med: Reinforcement with Label-Free Explainability for Unified Medical Reasoning</h3>
+        <p>
+          <strong>Authors:</strong> Luyao Tang, Zheyuan Cai, Qinong Tian, Zi Li, Quande Liu, Kyongtae Tyler Bae, Cheng Chen
+        </p>
+        <p>
+          <strong>Venue:</strong> 15th IEEE Image, Video, and Multidimensional Signal Processing Workshop (IEEE IVMSP), 2026 [Best Paper Award]
+        </p>
+        <a class="pub-link" href="https://ieeexplore.ieee.org/document/11618840/" target="_blank" rel="noopener noreferrer">
+          View Paper
+        </a>
+      </div>
+    </div>
+
+    <div class="pub-slide">
+      <img src="{{ 'images/publications/ma-sam.png' | relative_url }}" alt="MA-SAM paper image">
+      <div class="pub-content">
+        <h3>MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation</h3>
+        <p>
+          <strong>Authors:</strong> Cheng Chen, Juzheng Miao, Dufan Wu, Zhiling Yan, Sekeun Kim, Jiang Hu, Aoxiao Zhong, Zhengliang Liu, Lichao Sun, Xiang Li, Tianming Liu, Pheng-Ann Heng, Quanzheng Li
+        </p>
+        <p>
+          <strong>Venue:</strong> Medical Image Analysis (MedIA), 2024
+        </p>
+        <a class="pub-link" href="https://www.sciencedirect.com/science/article/pii/S1361841524002354" target="_blank" rel="noopener noreferrer">
           View Paper
         </a>
       </div>
