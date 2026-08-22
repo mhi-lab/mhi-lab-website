@@ -148,7 +148,7 @@
     - Cheng Chen
     - Quande Liu
     - Qi Dou
-    - Pheng Ann Heng
+    - "Pheng Ann Heng<sup>†</sup>"
   publisher: "Less-supervised Segmentation with CNNs"
   date: "2026-01-01"
   link: https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780323956741000159
@@ -160,10 +160,10 @@
     - Shihao Zou
     - Xiangyun Liao
     - Cheng Chen
-    - Chubin Ou
+    - "Chubin Ou<sup>†</sup>"
     - Jianping Lv
     - Shanshan Wang
-    - Weixin Si
+    - "Weixin Si<sup>†</sup>"
   publisher: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
   date: "2025-09-19"
   link: https://link.springer.com/chapter/10.1007/978-3-032-05162-2_19
@@ -180,7 +180,7 @@
     - Jun Cheng
     - Lu Liu
     - Yalin Zheng
-    - Yanda Meng
+    - "Yanda Meng<sup>†</sup>"
   publisher: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
   date: "2025-09-18"
   link: https://link.springer.com/chapter/10.1007/978-3-032-05182-0_54
@@ -191,7 +191,7 @@
     - Maximilian Zenk
     - Ujjwal Baid
     - Sarthak Pati
-    - et al.
+    - et al. for challenge summary report.
   publisher: "Nature Communications"
   date: "2025-07-08"
   link: https://www.nature.com/articles/s41467-025-60466-1
@@ -202,6 +202,9 @@
     - Meng Wang
     - Tian Lin
     - Aidi Lin
+    - Kai Yu
+    - Yuanyuan Peng
+    - Lianyu Wang
     - et al.
   publisher: "Nature Communications"
   date: "2025-07-01"
@@ -216,7 +219,7 @@
     - Cheng Chen
     - Yuhui Li
     - Hanwen Ren
-    - Xiang Li
+    - "Xiang Li<sup>†</sup>"
     - Tianming Liu
     - Quanzheng Li
   publisher: "IEEE Transactions on Medical Imaging (TMI)"
@@ -255,6 +258,7 @@
     - Xiang Li
     - Tianming Liu
     - Tianye Niu
+    - "Yixuan Yuan<sup>†</sup>"
   publisher: "IEEE Transactions on Medical Imaging (TMI)"
   date: "2025-08-01"
   link: https://ieeexplore.ieee.org/abstract/document/10981824
@@ -268,6 +272,9 @@
     - Jinyue Cai
     - Karen Kar Wun Chan
     - Qi Dou
+    - Kelvin Kam Lung Chong
+    - "Pheng-Ann Heng<sup>†</sup>"
+    - "Winnie Chiu-Wing Chu<sup>†</sup>"
   publisher: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
   date: "2025-06-01"
   link: https://ieeexplore.ieee.org/abstract/document/10902037
@@ -281,6 +288,12 @@
     - Kyungsang Kim
     - Zhiliang Lyu
     - Hui Ren
+    - Sunghwan Kim
+    - Zhengliang Liu
+    - Aoxiao Zhong
+    - Tianming Liu
+    - Xiang Li
+    - "Quanzheng Li<sup>†</sup>"
   publisher: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
   date: "2025-02-10"
   link: https://ieeexplore.ieee.org/abstract/document/10878483
@@ -293,7 +306,9 @@
     - Donghuan Lu
     - Jinghan Sun
     - Dong Wei
-    - Yefeng Zheng
+    - "Yefeng Zheng<sup>†</sup>"
+    - "Quanzheng Li<sup>†</sup>"
+    - "Raymond Kai-yu Tong<sup>†</sup>"
   publisher: "IEEE Transactions on Medical Imaging (TMI)"
   date: "2025-08-07"
   link: https://ieeexplore.ieee.org/abstract/document/11119675
