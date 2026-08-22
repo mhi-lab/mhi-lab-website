@@ -7,3 +7,11 @@ p {
   line-height: var(--spacing);
   font-size: 1.2rem;
 }
+
+.home-description {
+  max-width: 900px;
+  margin: 10px auto 30px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+}
