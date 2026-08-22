@@ -116,6 +116,7 @@ Our group is dedicated to the interdisciplinary field of artificial intelligence
   <button class="pub-dot" type="button" onclick="showPub(1)"></button>
   <button class="pub-dot" type="button" onclick="showPub(2)"></button>
   <button class="pub-dot" type="button" onclick="showPub(3)"></button>
+  <button class="pub-dot" type="button" onclick="showPub(4)"></button>
 </div>
 
 {%
