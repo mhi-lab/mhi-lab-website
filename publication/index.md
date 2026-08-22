@@ -7,6 +7,8 @@ nav:
 
 ## Publications
 
+† indicates corresponding authorship and * indicates co-first authorship.
+
 {% comment %}
 {% include search-box.html %}
 
