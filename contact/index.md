@@ -25,7 +25,9 @@ nav:
 
 ---
 
+<p class="application-note">
 Due to the large volume of emails I receive, I may not be able to respond to every applicant, including many excellent candidates. Please be assured that I review all emails carefully, so there is no need to send multiple applications. I will contact applicants whose research interests and experience most closely align with our group. I sincerely wish you every success in finding the position that is right for you.
+</p>
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
