@@ -9,32 +9,30 @@ nav:
 
 <h2>Group Photos</h2>
 
-<div class="team-photo-carousel">
-
+<div class="team-photo-carousel" aria-label="Group photos">
   <div class="team-photo-slides">
 
     <figure class="team-photo-slide is-active">
       <img
-        src="{{ 'images/group/group-photo-1.jpg' | relative_url }}"
+        src="{{ '/images/group/group-photo-1.jpg' | relative_url }}"
         alt="MHI Lab group photo"
       >
-      <figcaption>MHI Lab Group Photo, 2026</figcaption>
     </figure>
 
     <figure class="team-photo-slide">
       <img
-        src="{{ 'images/group/group-photo-2.jpg' | relative_url }}"
-        alt="MHI Lab group activity"
+        src="{{ '/images/group/group-photo-2.jpg' | relative_url }}"
+        alt="MHI Lab group photo"
+        loading="lazy"
       >
-      <figcaption>MHI Lab Group Activity, 2026</figcaption>
     </figure>
 
     <figure class="team-photo-slide">
       <img
-        src="{{ 'images/group/group-photo-3.jpg' | relative_url }}"
-        alt="MHI Lab group gathering"
+        src="{{ '/images/group/group-photo-3.jpg' | relative_url }}"
+        alt="MHI Lab group photo"
+        loading="lazy"
       >
-      <figcaption>MHI Lab Group Gathering, 2026</figcaption>
     </figure>
 
   </div>
@@ -42,7 +40,7 @@ nav:
   <button
     class="team-photo-arrow team-photo-prev"
     type="button"
-    aria-label="Previous group photo"
+    aria-label="Previous photo"
   >
     &#10094;
   </button>
@@ -50,13 +48,12 @@ nav:
   <button
     class="team-photo-arrow team-photo-next"
     type="button"
-    aria-label="Next group photo"
+    aria-label="Next photo"
   >
     &#10095;
   </button>
 
-  <div class="team-photo-dots" aria-label="Choose group photo"></div>
-
+  <div class="team-photo-dots" aria-label="Choose a photo"></div>
 </div>
 
 <h2>Principal Investigator</h2>
@@ -74,92 +71,114 @@ nav:
 </div>
 
 <script>
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector(".team-photo-carousel");
 
-  if (!carousel) return;
+  if (!carousel) {
+    return;
+  }
 
-  const slides = carousel.querySelectorAll(".team-photo-slide");
-  const dotsContainer = carousel.querySelector(".team-photo-dots");
+  const slides = Array.from(
+    carousel.querySelectorAll(".team-photo-slide")
+  );
+
   const previousButton = carousel.querySelector(".team-photo-prev");
   const nextButton = carousel.querySelector(".team-photo-next");
+  const dotsContainer = carousel.querySelector(".team-photo-dots");
 
-  let currentPhoto = 0;
-  let teamPhotoTimer = null;
+  let currentSlide = 0;
+  let autoplayTimer;
 
-  function showTeamPhoto(index) {
-    if (index < 0) {
-      currentPhoto = slides.length - 1;
-    } else if (index >= slides.length) {
-      currentPhoto = 0;
-    } else {
-      currentPhoto = index;
-    }
+  function showSlide(index) {
+    currentSlide = (index + slides.length) % slides.length;
 
     slides.forEach(function (slide, slideIndex) {
-      const isActive = slideIndex === currentPhoto;
-
-      slide.classList.toggle("is-active", isActive);
-      slide.setAttribute("aria-hidden", String(!isActive));
+      slide.classList.toggle(
+        "is-active",
+        slideIndex === currentSlide
+      );
     });
 
     const dots = dotsContainer.querySelectorAll(".team-photo-dot");
 
     dots.forEach(function (dot, dotIndex) {
-      const isActive = dotIndex === currentPhoto;
+      dot.classList.toggle(
+        "is-active",
+        dotIndex === currentSlide
+      );
 
-      dot.classList.toggle("is-active", isActive);
-      dot.setAttribute("aria-current", String(isActive));
+      dot.setAttribute(
+        "aria-current",
+        dotIndex === currentSlide ? "true" : "false"
+      );
     });
   }
 
-  function stopTeamPhotoTimer() {
-    if (teamPhotoTimer) {
-      clearInterval(teamPhotoTimer);
-      teamPhotoTimer = null;
+  function showPreviousSlide() {
+    showSlide(currentSlide - 1);
+  }
+
+  function showNextSlide() {
+    showSlide(currentSlide + 1);
+  }
+
+  function stopAutoplay() {
+    window.clearInterval(autoplayTimer);
+  }
+
+  function startAutoplay() {
+    stopAutoplay();
+
+    if (slides.length > 1) {
+      autoplayTimer = window.setInterval(
+        showNextSlide,
+        5000
+      );
     }
   }
 
-  function startTeamPhotoTimer() {
-    stopTeamPhotoTimer();
-
-    teamPhotoTimer = setInterval(function () {
-      showTeamPhoto(currentPhoto + 1);
-    }, 7000);
-  }
-
-  slides.forEach(function (_, index) {
+  slides.forEach(function (slide, index) {
     const dot = document.createElement("button");
 
     dot.className = "team-photo-dot";
     dot.type = "button";
-    dot.setAttribute("aria-label", "Show group photo " + (index + 1));
+    dot.setAttribute("aria-label", "Show photo " + (index + 1));
 
     dot.addEventListener("click", function () {
-      showTeamPhoto(index);
-      startTeamPhotoTimer();
+      showSlide(index);
+      startAutoplay();
     });
 
     dotsContainer.appendChild(dot);
   });
 
   previousButton.addEventListener("click", function () {
-    showTeamPhoto(currentPhoto - 1);
-    startTeamPhotoTimer();
+    showPreviousSlide();
+    startAutoplay();
   });
 
   nextButton.addEventListener("click", function () {
-    showTeamPhoto(currentPhoto + 1);
-    startTeamPhotoTimer();
+    showNextSlide();
+    startAutoplay();
   });
 
-  carousel.addEventListener("mouseenter", stopTeamPhotoTimer);
-  carousel.addEventListener("mouseleave", startTeamPhotoTimer);
-  carousel.addEventListener("focusin", stopTeamPhotoTimer);
-  carousel.addEventListener("focusout", startTeamPhotoTimer);
+  carousel.addEventListener("mouseenter", stopAutoplay);
+  carousel.addEventListener("mouseleave", startAutoplay);
+  carousel.addEventListener("focusin", stopAutoplay);
 
-  showTeamPhoto(0);
-  startTeamPhotoTimer();
-})();
+  carousel.addEventListener("focusout", function (event) {
+    if (!carousel.contains(event.relatedTarget)) {
+      startAutoplay();
+    }
+  });
+
+  if (slides.length <= 1) {
+    previousButton.hidden = true;
+    nextButton.hidden = true;
+    dotsContainer.hidden = true;
+  }
+
+  showSlide(0);
+  startAutoplay();
+});
 </script>
-
