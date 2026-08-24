@@ -21,8 +21,8 @@ For applications and inquiries, please contact Prof. Cheng Chen at [cchen@eee.hk
 - We are looking for self-motivated PhD students who are interested in medical AI. Please drop me an email with your CV, transcripts, 1–2 page research statement (optional).
 - There are multiple fully funded options
   - HKU EEE PhD Program (HKD 19,135–19,655 / month)
-  - **HKU Presidential PhD Scholarship (HKU-PS)** (HKD 28,700 / month)
-  - **Hong Kong PhD Fellowship (HKPF)** (HKD 28,700 / month)
+  - HKU Presidential PhD Scholarship (HKU-PS) (HKD 28,700 / month)
+  - Hong Kong PhD Fellowship (HKPF) (HKD 28,700 / month)
   - HKU-BICI Joint PhD Programme
 
 ### **Postdoc/RA/Intern/Visiting Students**
