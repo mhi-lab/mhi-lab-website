@@ -14,7 +14,7 @@ main li {
 
 ## **OPEN POSITIONS**
 
-For applications and inquiries, please contact Prof. Cheng Chen at [cchen@eee.hku.hk](mailto:cchen@eee.hku.hk).
+For applications and inquiries, please contact Prof. Cheng Chen at [cheng.chen@hku.hk](mailto:cheng.chen@hku.hk).
 
 ### **Prospective PhD Student**
 
